@@ -1,7 +1,6 @@
 import os
 from dotenv import load_dotenv
 from langchain_google_genai import ChatGoogleGenerativeAI
-
 from integrations.google_calendar import get_todays_meetings
 from scripts.test_google_auth import get_google_creds
 from integrations.gmail import get_recent_emails
