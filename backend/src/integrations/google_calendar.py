@@ -1,5 +1,6 @@
-from googleapiclient.discovery import build
 from datetime import datetime, timedelta
+from googleapiclient.discovery import build
+
 
 def get_todays_meetings(creds):
     service = build("calendar", "v3", credentials=creds)
